@@ -1,0 +1,9 @@
+[package]
+name = "ghshasum"
+version = "0.1.0"
+authors = ["Nick Gerace <nickagerace@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sha2 = { version = "^0", default-features = false }
+reqwest = { version = "^0", features = ["blocking"] }
